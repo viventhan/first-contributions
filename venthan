@@ -1,0 +1,18 @@
+class FibonacciExample1{  
+public static void main(String args[])  
+{    
+ int n,a=0,b=1,c=1;
+ Scanner s=new Scanner(System.in);
+ System.out.print("enter value of n:");
+ n=s.nextInt();
+ 
+    
+ for(i=1;i<=n;++i)//loop starts from 2 because 0 and 1 are already printed    
+ {    
+  c=a+b;    
+  System.out.print(a+" ");    
+  a=b;    
+  b=c;    
+ }    
+  
+}}      
